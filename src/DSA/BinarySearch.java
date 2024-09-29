@@ -1,4 +1,4 @@
-
+package DSA;
 // Binary Search is a search algorithm that finds the position of a target value within a sorted array.
 
 public class BinarySearch {

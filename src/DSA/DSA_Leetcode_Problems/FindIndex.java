@@ -1,4 +1,4 @@
-package DSA_Leetcode_Problems;
+package DSA.DSA_Leetcode_Problems;
 
 public class FindIndex {
     // Find the index of the first occurrence an a string

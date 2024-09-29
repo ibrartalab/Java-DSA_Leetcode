@@ -1,4 +1,4 @@
-package DSA_Leetcode_Problems;
+package DSA.DSA_Leetcode_Problems;
 
 import java.util.Arrays;
 

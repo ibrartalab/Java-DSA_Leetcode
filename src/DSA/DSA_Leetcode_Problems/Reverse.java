@@ -1,4 +1,4 @@
-package DSA_Leetcode_Problems;
+package DSA.DSA_Leetcode_Problems;
 public class Reverse{
   public static void main(String[] args) {
     int[] arr = {1, 2, 3, 4, 55, 6, 7, 8, 9, 10};

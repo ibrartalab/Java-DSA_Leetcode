@@ -1,4 +1,4 @@
-package DSA_Leetcode_Problems;
+package DSA.DSA_Leetcode_Problems;
 public class Palindrome{
     public static void main(String[] args) {
         int x = 121;
