@@ -5,6 +5,9 @@ public class ArmstrongNumber {
 
         boolean result = isArmstrong(8208);
         System.out.println(result);
+
+        int digitsCount = getDigits(8208);
+        System.out.println(digitsCount);
     }
 
     //Armstrong Number finding
@@ -14,6 +17,7 @@ public class ArmstrongNumber {
         int temp = num;
         while (temp > 0){
             int reminder = temp % 10;
+
             int pow = power(reminder,4);
             temp /= 10;
             sum += pow;
@@ -23,6 +27,21 @@ public class ArmstrongNumber {
 
         }
         return isArmstrong;
+    }
+
+    //Get digits of a number
+    public static int getDigits(int num){
+        int digitsCount = 0;
+        int temp = num;
+
+        while (temp > 0){
+            if(temp % 10 == 0 || temp % 10 != 0){
+                digitsCount += 1;
+                temp /= 10;
+            }
+
+        }
+        return digitsCount;
     }
 
     //Get power calculate
